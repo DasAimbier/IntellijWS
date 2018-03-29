@@ -13,5 +13,7 @@ public class Main {
         InputReader ir = new InputReader();
 
         ir.startReader();
+
+        System.out.println("Alex du Mongooooo");
     }
 }
