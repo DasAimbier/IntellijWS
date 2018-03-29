@@ -1,20 +1,21 @@
 package de.aimbier;
 
-import java.io.*;
-import DelibJava.Delib;
-import DelibJava.DelibErrorCodes;
-import DelibJava.DelibJNI64;
+import javax.swing.*;
 
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        //InputReader ir = new InputReader();
+        //ir.startReader();
+    SwingUtilities.invokeLater(new Runnable() {
+        @Override
+        public void run() {
+            JFrame mainFrame = new MainFrame("SM-Ueberwachung");
+            mainFrame.setSize(1280, 720);
+            mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            mainFrame.setVisible(true);
+        }
+    });
 
-        InputReader ir = new InputReader();
-
-        ir.startReader();
-
-
-        System.out.println("Sackgesicht");
     }
 }
