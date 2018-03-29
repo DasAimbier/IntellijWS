@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="IntellijWS:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/IntellijWS_jar</output-path>
+    <root id="archive" name="IntellijWS.jar">
+      <element id="module-output" name="IntellijWS" />
+      <element id="library" level="project" name="include" />
+    </root>
+  </artifact>
+</component>
