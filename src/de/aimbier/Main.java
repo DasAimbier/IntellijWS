@@ -15,6 +15,6 @@ public class Main {
         ir.startReader();
 
 
-        System.out.println("Alex du Mongooooo");
+        System.out.println("Sackgesicht");
     }
 }
